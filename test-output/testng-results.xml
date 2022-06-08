@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="13" passed="6" failed="2" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-08T12:34:24 EDT" name="Loan Department" finished-at="2022-06-08T12:34:24 EDT" duration-ms="213">
+    <groups>
+    </groups>
+    <test started-at="2022-06-08T12:34:24 EDT" name="Regression" finished-at="2022-06-08T12:34:24 EDT" duration-ms="213">
+      <class name="project.day3">
+        <test-method is-config="true" signature="Bfsuite()[pri:0, instance:project.day3@2053d869]" started-at="2022-06-08T12:34:24 EDT" name="Bfsuite" finished-at="2022-06-08T12:34:24 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfsuite -->
+        <test-method is-config="true" signature="befoclas()[pri:0, instance:project.day3@2053d869]" started-at="2022-06-08T12:34:24 EDT" name="befoclas" finished-at="2022-06-08T12:34:24 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befoclas -->
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:project.day3@2053d869]" started-at="2022-06-08T12:34:24 EDT" name="beforeevery" finished-at="2022-06-08T12:34:24 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method signature="MobilesignoutcarLoan(java.lang.String,java.lang.String)[pri:0, instance:project.day3@2053d869]" started-at="2022-06-08T12:34:24 EDT" name="MobilesignoutcarLoan" data-provider="getData" finished-at="2022-06-08T12:34:24 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutcarLoan -->
+        <test-method is-config="true" signature="afterevery()[pri:0, instance:project.day3@2053d869]" started-at="2022-06-08T12:34:24 EDT" name="afterevery" finished-at="2022-06-08T12:34:24 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method signature="MobilesignoutcarLoan(java.lang.String,java.lang.String)[pri:0, instance:project.day3@2053d869]" started-at="2022-06-08T12:34:24 EDT" name="MobilesignoutcarLoan" data-provider="getData" finished-at="2022-06-08T12:34:24 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutcarLoan -->
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:project.day3@2053d869]" started-at="2022-06-08T12:34:24 EDT" name="beforeevery" finished-at="2022-06-08T12:34:24 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method is-config="true" signature="afterevery()[pri:0, instance:project.day3@2053d869]" started-at="2022-06-08T12:34:24 EDT" name="afterevery" finished-at="2022-06-08T12:34:24 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method is-config="true" signature="beforeevery()[pri:0, instance:project.day3@2053d869]" started-at="2022-06-08T12:34:24 EDT" name="beforeevery" finished-at="2022-06-08T12:34:24 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method signature="MobilesignoutcarLoan(java.lang.String,java.lang.String)[pri:0, instance:project.day3@2053d869]" started-at="2022-06-08T12:34:24 EDT" name="MobilesignoutcarLoan" data-provider="getData" finished-at="2022-06-08T12:34:24 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutcarLoan -->
+        <test-method is-config="true" signature="afterevery()[pri:0, instance:project.day3@2053d869]" started-at="2022-06-08T12:34:24 EDT" name="afterevery" finished-at="2022-06-08T12:34:24 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterevery -->
+        <test-method signature="WebloginCarLoan(java.lang.String,java.lang.String)[pri:0, instance:project.day3@2053d869]" started-at="2022-06-08T12:34:24 EDT" name="WebloginCarLoan" finished-at="2022-06-08T12:34:24 EDT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method WebloginCarLoan but has not been marked @Optional or defined
+in C:\Users\supra\eclipse-workspace\JenkinJobs\testng3.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method WebloginCarLoan but has not been marked @Optional or defined
+in C:\Users\supra\eclipse-workspace\JenkinJobs\testng3.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginCarLoan -->
+        <test-method signature="APIcarLoan()[pri:0, instance:project.day3@2053d869]" started-at="2022-06-08T12:34:24 EDT" name="APIcarLoan" finished-at="2022-06-08T12:34:24 EDT" depends-on-methods="project.day3.WebloginCarLoan, project.day3.MobilesignoutcarLoan" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method day3.APIcarLoan()[pri:0, instance:project.day3@2053d869] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method day3.APIcarLoan()[pri:0, instance:project.day3@2053d869] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIcarLoan -->
+        <test-method is-config="true" signature="afteclas()[pri:0, instance:project.day3@2053d869]" started-at="2022-06-08T12:34:24 EDT" name="afteclas" finished-at="2022-06-08T12:34:24 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afteclas -->
+      </class> <!-- project.day3 -->
+      <class name="project.day4">
+        <test-method signature="LoginAPIHomeLoan()[pri:0, instance:project.day4@3fb1549b]" started-at="2022-06-08T12:34:24 EDT" name="LoginAPIHomeLoan" finished-at="2022-06-08T12:34:24 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIHomeLoan -->
+        <test-method signature="WebloginHomeLoan(java.lang.String)[pri:0, instance:project.day4@3fb1549b]" started-at="2022-06-08T12:34:24 EDT" name="WebloginHomeLoan" finished-at="2022-06-08T12:34:24 EDT" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method WebloginHomeLoan but has not been marked @Optional or defined
+in C:\Users\supra\eclipse-workspace\JenkinJobs\testng3.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method WebloginHomeLoan but has not been marked @Optional or defined
+in C:\Users\supra\eclipse-workspace\JenkinJobs\testng3.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeLoan -->
+      </class> <!-- project.day4 -->
+      <class name="project.day1">
+        <test-method is-config="true" signature="bfSuite()[pri:0, instance:project.day1@15aab8c6]" started-at="2022-06-08T12:34:24 EDT" name="bfSuite" finished-at="2022-06-08T12:34:24 EDT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfSuite -->
+        <test-method is-config="true" signature="bfTest()[pri:0, instance:project.day1@15aab8c6]" started-at="2022-06-08T12:34:24 EDT" name="bfTest" finished-at="2022-06-08T12:34:24 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfTest -->
+        <test-method is-config="true" signature="bfClass()[pri:0, instance:project.day1@15aab8c6]" started-at="2022-06-08T12:34:24 EDT" name="bfClass" finished-at="2022-06-08T12:34:24 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfClass -->
+        <test-method is-config="true" signature="bfMethod()[pri:0, instance:project.day1@15aab8c6]" started-at="2022-06-08T12:34:24 EDT" name="bfMethod" finished-at="2022-06-08T12:34:24 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfMethod -->
+        <test-method signature="Demo()[pri:0, instance:project.day1@15aab8c6]" started-at="2022-06-08T12:34:24 EDT" name="Demo" finished-at="2022-06-08T12:34:24 EDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="afMethod()[pri:0, instance:project.day1@15aab8c6]" started-at="2022-06-08T12:34:24 EDT" name="afMethod" finished-at="2022-06-08T12:34:24 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afMethod -->
+        <test-method signature="Demo1()[pri:0, instance:project.day1@15aab8c6]" started-at="2022-06-08T12:34:24 EDT" name="Demo1" finished-at="2022-06-08T12:34:24 EDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1 -->
+        <test-method is-config="true" signature="bfMethod()[pri:0, instance:project.day1@15aab8c6]" started-at="2022-06-08T12:34:24 EDT" name="bfMethod" finished-at="2022-06-08T12:34:24 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfMethod -->
+        <test-method is-config="true" signature="afMethod()[pri:0, instance:project.day1@15aab8c6]" started-at="2022-06-08T12:34:24 EDT" name="afMethod" finished-at="2022-06-08T12:34:24 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afMethod -->
+        <test-method is-config="true" signature="afClass()[pri:0, instance:project.day1@15aab8c6]" started-at="2022-06-08T12:34:24 EDT" name="afClass" finished-at="2022-06-08T12:34:24 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afClass -->
+        <test-method is-config="true" signature="lastexecution()[pri:0, instance:project.day1@15aab8c6]" started-at="2022-06-08T12:34:24 EDT" name="lastexecution" finished-at="2022-06-08T12:34:24 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexecution -->
+        <test-method is-config="true" signature="afSuite()[pri:0, instance:project.day1@15aab8c6]" started-at="2022-06-08T12:34:25 EDT" name="afSuite" finished-at="2022-06-08T12:34:25 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afSuite -->
+      </class> <!-- project.day1 -->
+      <class name="project.day2">
+        <test-method is-config="true" signature="prerequiste()[pri:0, instance:project.day2@10feca44]" started-at="2022-06-08T12:34:24 EDT" name="prerequiste" finished-at="2022-06-08T12:34:24 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+      </class> <!-- project.day2 -->
+    </test> <!-- Regression -->
+  </suite> <!-- Loan Department -->
+</testng-results>
